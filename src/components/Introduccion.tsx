@@ -8,20 +8,20 @@ const Introduccion = () => {
     const containerRef = useRef<HTMLDivElement>(null);
 
     const galleryItems = [
-        { image: '/public/images/gasolinanegra.jpeg', text: 'Mala Gasolina' },
-        { image: '/public/images/surtidorvacio.jpeg', text: 'Surtidores Vacíos' },
-        { image: '/public/images/mecanico.jpeg', text: 'Autos dañados' },
-        { image: '/public/images/gasolineravacia.jpeg', text: 'Gasolineras cerradas' },
-        { image: '/public/images/fila.jpeg', text: 'Filas Interminables' },
+        { image: '/images/gasolinanegra.jpeg', text: 'Mala Gasolina' },
+        { image: '/images/surtidorvacio.jpeg', text: 'Surtidores Vacíos' },
+        { image: '/images/mecanico.jpeg', text: 'Autos dañados' },
+        { image: '/images/gasolineravacia.jpeg', text: 'Gasolineras cerradas' },
+        { image: '/images/fila.jpeg', text: 'Filas Interminables' },
 
 
-        { image: '/public/images/gasolinanegra.jpeg', text: 'Gasolina alterada' },
+        { image: '/images/gasolinanegra.jpeg', text: 'Gasolina alterada' },
 
-        { image: '/public/images/nuevagvacia.jpeg', text: 'Sin servicio' },
-        { image: '/public/images/nuevafila2.jpeg', text: 'Filas de horas' },
-        { image: '/public/images/nuevomecanico.jpeg', text: 'autos sin funcionar' },
+        { image: '/images/nuevagvacia.jpeg', text: 'Sin servicio' },
+        { image: '/images/nuevafila2.jpeg', text: 'Filas de horas' },
+        { image: '/images/nuevomecanico.jpeg', text: 'autos sin funcionar' },
 
-        { image: '/public/images/nuevafila.jpeg', text: 'Filas enormes' }
+        { image: '/images/nuevafila.jpeg', text: 'Filas enormes' }
     ];
 
     return (
