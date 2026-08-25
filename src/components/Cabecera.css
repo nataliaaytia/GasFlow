@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.cabecera-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 40px;
+    border-radius: 50px;
+    z-index: 100;
+    font-family: 'Poppins', sans-serif;
+
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px) saturate(1.5);
+    -webkit-backdrop-filter: blur(15px) saturate(1.5);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+}
+
+
+.cabecera-logo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #3f7095;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.cabecera-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #213552;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #519acf;
+}
+
+.separador {
+    width: 1px;
+    height: 24px;
+    background-color: rgba(33, 53, 82, 0.2);
+    margin-left: 10px;
+}
+
+.nav-contactos {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3f7095;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-left: 15px;
+
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(63, 112, 149, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-contactos:hover {
+    background-color: #519acf;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(81, 154, 207, 0.3);
+}

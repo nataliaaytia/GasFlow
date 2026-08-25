@@ -1,0 +1,162 @@
+.algoritmos-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #FDFBF7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.algoritmos-content {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.algoritmos-header {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.algoritmos-title {
+    color: #3f7095;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.algoritmos-subtitle {
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.algoritmos-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.algoritmos-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.algoritmos-card-text {
+    flex: 1 1 500px;
+}
+
+.algoritmos-card-title {
+    color: #3f7095;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.algoritmos-card-desc {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.algoritmos-card-subtitle {
+    color: #213552;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.algoritmos-card-list {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.algoritmos-card-folder {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px dashed #eef3f7;
+    padding-left: 20px;
+}
+
+.algoritmos-folder-title {
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.algoritmos-folder-title.noroeste {
+    color: #d9825b;
+}
+
+.algoritmos-folder-title.dijkstra {
+    color: #2a9d8f;
+}
+
+.algoritmos-folder-wrapper {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Estilos de las Hojitas (PaperContent) */
+.paper-content-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #213552;
+    padding: 10px;
+    text-align: center;
+    pointer-events: auto;
+}
+
+.paper-content-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paper-content-youtube {
+    background-color: #ff0000;
+}
+
+.paper-content-doc {
+    background-color: #3f7095;
+}
+
+.paper-content-text {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.2;
+}
