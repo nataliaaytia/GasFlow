@@ -54,7 +54,7 @@ const Introduccion = () => {
                 {/* Imagen de la ciudad colapsada */}
                 <div style={{ flex: '1 1 400px', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}>
                     <img
-                        src="public/images/nohaygasolina.jpeg"
+                        src="images/nohaygasolina.jpeg"
                         alt="Crisis de combustible en Bolivia"
                         style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover', aspectRatio: '4/3' }}
                     />
@@ -139,7 +139,7 @@ const Introduccion = () => {
                 {/* Imagen del Objetivo a la Derecha */}
                 <div style={{ flex: '1 1 400px', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}>
                     <img
-                        src="/public/images/gasolineravacia.jpeg"
+                        src="/images/gasolineravacia.jpeg"
                         alt="Solución y optimización matemática"
                         style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover', aspectRatio: '4/3' }}
                     />
@@ -165,7 +165,7 @@ const Introduccion = () => {
                             onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-8px)'}
                             onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                         >
-                            <img src="/public/images/northwest.webp" alt="Asignación Northwest" style={{ width: '100%', borderRadius: '12px', marginBottom: '20px', height: '180px', objectFit: 'cover' }} />
+                            <img src="/images/northwest.webp" alt="Asignación Northwest" style={{ width: '100%', borderRadius: '12px', marginBottom: '20px', height: '180px', objectFit: 'cover' }} />
                             <h3 style={{ color: '#3f7095', fontSize: '1.4rem', marginBottom: '10px', fontWeight: 600 }}>Esquina Noroeste</h3>
                             <p style={{ color: '#666', fontSize: '0.95rem', lineHeight: '1.5' }}>
                                 Algoritmo de asignación que equilibra la <strong style={{ color: '#213552' }}>oferta</strong> de las plantas de suministro y la <strong style={{ color: '#213552' }}>demanda</strong> de las gasolineras de forma estructurada.
@@ -181,7 +181,7 @@ const Introduccion = () => {
                             onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-8px)'}
                             onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                         >
-                            <img src="/public/images/dijkstra.jpg" alt="Optimización Dijkstra" style={{ width: '100%', borderRadius: '12px', marginBottom: '20px', height: '180px', objectFit: 'cover' }} />
+                            <img src="/images/dijkstra.jpg" alt="Optimización Dijkstra" style={{ width: '100%', borderRadius: '12px', marginBottom: '20px', height: '180px', objectFit: 'cover' }} />
                             <h3 style={{ color: '#3f7095', fontSize: '1.4rem', marginBottom: '10px', fontWeight: 600 }}>Algoritmo de Dijkstra</h3>
                             <p style={{ color: '#666', fontSize: '0.95rem', lineHeight: '1.5' }}>
                                 Cálculo matemático del <strong style={{ color: '#213552' }}>camino más corto</strong> para garantizar que los camiones cisterna lleguen a su destino en el menor tiempo posible.
